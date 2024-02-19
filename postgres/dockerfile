@@ -14,9 +14,8 @@ VOLUME /var/lib/postgresql/data
 
 # Expose the default PostgreSQL port
 EXPOSE 5432
-
 # You can add additional configurations or scripts if needed
-# For example, you can copy SQL scripts to initialize the database schema
 
+# For example, you can copy SQL scripts to initialize the database schema
 # CMD instruction to start PostgreSQL when the container runs
 CMD ["postgres"]
